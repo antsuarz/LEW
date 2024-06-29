@@ -1,0 +1,88 @@
+/** (0,0,1) */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/** (0,0,1) */
+body { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/** (0,0,1) */
+nav {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+/** (0,0,2) */
+nav a { 
+    
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1rem; 
+    
+}
+/** (0,0,1) */
+article{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+/** (0,0,2) */
+article > h2 {    
+    text-align: center;
+    font-size: 30px; 
+    grid-column: 3;
+}
+/** (0,1,2) */
+nav a:hover {
+    background-color: #16af89;
+    border-radius: 10%;
+    color: black;
+}
+/** (0,0,1) */
+img { 
+    max-width: 100%;  
+}
+/** (0,0,1) */
+section{
+    border: 1px solid #ddd; 
+    padding: 1.5rem; 
+    background-color: aliceblue;
+}
+ /** (0,0,2) */
+section  ul{
+    list-style-type: none; 
+}
+/** (0,0,2) */
+section  li{
+    display: flex;
+    align-items: center;
+}
+/** (0,0,2) */
+section video{
+    align-self: center;
+    max-width: 100%;   
+}
+/** (0,0,3) */
+section li img { 
+    width: 25px; 
+    height: 25px;  
+    border: none;
+    margin-right: 1rem; 
+}
+/** (0,0,1) */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
